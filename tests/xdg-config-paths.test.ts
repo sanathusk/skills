@@ -48,8 +48,8 @@ describe('XDG config paths', () => {
   });
 
   describe('Goose', () => {
-    it('uses ~/.config/goose/skills for global skills', () => {
-      const expected = join(home, '.config', 'goose', 'skills');
+    it('uses ~/.config/agents/skills for global skills', () => {
+      const expected = join(home, '.config', 'agents', 'skills');
       expect(agents.goose.globalSkillsDir).toBe(expected);
     });
 
