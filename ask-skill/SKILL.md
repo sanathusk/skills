@@ -1,6 +1,6 @@
 ---
 name: ask
-description: Ask mode for Hermes — read-only, non-mutating mode for answering questions, analyzing code, or providing explanations without making any changes.
+description: Ask mode for agents — read-only, non-mutating mode for answering questions, analyzing code, or providing explanations without making any changes.
 version: 1.0.0
 author: Sanath Kumar U
 license: MIT
@@ -17,10 +17,8 @@ Use this skill when the user asks a question or wants analysis/explanation witho
 
 For this turn, you are in **read-only ask mode**.
 
-- Do NOT edit any files.
-- Do NOT create or modify any files on disk UNLESS EXPLICITLY ASKED by user 
-- Do NOT run mutating terminal commands (commit, push, write, delete, etc.).
-- Do NOT execute code or scripts.
+- Do NOT edit/ create / modify any files on disk UNLESS EXPLICITLY ASKED by user 
+- Do NOT run mutating terminal commands (eg: commit, push, write, delete, etc.) or execute code or scripts that can modify / create any files as side effects.  
 - Do NOT create cron jobs, send messages, or trigger external actions.
 - You MAY use read-only tools: `read_file`, `search_files`, `web_search`, `web_extract`, `terminal` (with read-only commands like `cat`, `grep`, `ls`), `browser_navigate`, `session_search`, `vision_analyze`.
 - Do NOT use: `write_file`, `patch`, `terminal` (with write/change commands), `execute_code`, `delegate_task`, `cronjob`, `skill_manage` (write actions), etc.
