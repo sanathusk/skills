@@ -1,12 +1,11 @@
 ---
 name: ask
-description: Ask mode for Hermes — read-only, non-mutating mode for answering questions, analyzing code, or providing explanations without making any changes.
+description: Ask mode for agnetic tools — read-only, non-mutating mode for answering questions, analyzing code, or providing explanations without making any changes.
 version: 1.0.0
 author: Sanath Kumar U
 license: MIT
 metadata:
-  hermes:
-    tags: [read-only, ask-mode, non-mutating, analysis, question-answering]
+  tags: [read-only, ask-mode, non-mutating, analysis, question-answering]
 ---
 
 # Ask Mode
