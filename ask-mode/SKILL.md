@@ -1,5 +1,5 @@
 ---
-name: ask
+name: ask-mode
 description: Ask mode for agnetic tools — read-only, non-mutating mode for answering questions, analyzing code, or providing explanations without making any changes.
 version: 1.0.0
 author: Sanath Kumar U
