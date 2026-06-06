@@ -1,5 +1,5 @@
 ---
-name: gh-reference
+name: gh-cli
 description: Comprehensive reference for the GitHub CLI (gh) command. Use when working with GitHub operations like pull requests, issues, repos, releases, workflows, Actions runs, secrets, labels, gists, or the GitHub API. Covers all gh commands, subcommands, flags, and common patterns.
 user-invocable: false
 ---
