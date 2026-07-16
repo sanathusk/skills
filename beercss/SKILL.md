@@ -1,6 +1,6 @@
 ---
 name: beercss
-description: Provides on-demand BeerCSS documentation by fetching live docs pages. Use when writing, debugging, or reviewing BeerCSS applications — including elements, helpers, settings, layouts, navigation, dialogs, grids, inputs, buttons, cards, or any Material Design 3 component.
+description: Provide on-demand BeerCSS documentation by fetching live docs pages. Triggers when styling web pages or projects using BeerCSS, or when the user mentions BeerCSS or Material Design 3 UI components (elements, helpers, layouts, inputs, buttons, cards).
 ---
 
 # BeerCSS Skill
