@@ -20,7 +20,7 @@ This session is for brainstorming, gathering requirements, refining ideas, and r
 1. **Initialize**
    - Read `assets/session-template.md`.
    - Treat the template as the authoritative structure for the generated session document.
-   - Create `better-ones/brainstorm/session/` if it does not exist.
+   - Create `better-agents/brainstorm/session/` if it does not exist.
    - Determine a concise session name from the user's topic.
 
 2. **Understand**
@@ -43,7 +43,7 @@ This session is for brainstorming, gathering requirements, refining ideas, and r
 
 4. **Maintain (Realtime)**
    - Keep the session document updated continuously as the session progresses — not only at the end.
-   - Write and update the persisted file at `better-ones/brainstorm/session/<session-name>.md` as you go (progressive writes), so the on-disk document always reflects the current session state.
+   - Write and update the persisted file at `better-agents/brainstorm/session/<session-name>.md` as you go (progressive writes), so the on-disk document always reflects the current session state.
    - Update entries immediately whenever information is discovered, refined, or rectified by the user.
    - Move entries between categories as understanding evolves (e.g., an assumption confirmed as fact becomes Context; an idea accepted by the user becomes a Decision; a rejected alternative moves to Alternatives Considered).
    - Track Open Questions live and remove them as they get resolved.
@@ -83,7 +83,7 @@ This session is for brainstorming, gathering requirements, refining ideas, and r
      - Ensure it still conforms to the template's required sections and ordering.
      - Confirm it reflects the session's final state, including any late refinements or rectifications.
    - Confirm the document is persisted at:
-     `better-ones/brainstorm/session/<session-name>.md`
+     `better-agents/brainstorm/session/<session-name>.md`
    - Do not modify the template itself.
    - If a session with the same filename already exists, do not overwrite it silently. Ask the user whether to update it, replace it, or create a new session.
 
@@ -123,4 +123,4 @@ A brainstorming session is complete only when:
 - the generated document contains no unsupported assumptions;
 - the document was maintained in realtime and reflects the session's final state;
 - no implementation, prototyping, or code was started; the session produced only the brainstorm document;
-- the Markdown file has been persisted under `better-ones/brainstorm/session/`.
+- the Markdown file has been persisted under `better-agents/brainstorm/session/`.
