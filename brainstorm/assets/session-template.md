@@ -33,11 +33,11 @@ How should an agent approach the work?
 ## Actions
 
 <!--
-What should the agent actually do?
+What one should actually do to achieve the outcome?
 -->
 
 ### {{action-item}}
-
+<!-- records action items, their dependencies, with other action items or other sections (eg:open questions etc) and their outcomes, current status -->
 {{action}}
 
 ## Outcomes
@@ -84,3 +84,6 @@ Remove this entire section when there are no alternatives worth preserving.
 **Consideration:** {{consideration}}
 
 **Decision:** {{alternative-decision}}
+
+**Status:**
+<!-- possible values: ongoing, concluded, abandoned -->

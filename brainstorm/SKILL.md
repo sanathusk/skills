@@ -97,7 +97,7 @@ This session is for brainstorming, gathering requirements, refining ideas, and r
 - The user is the authority on their intent, requirements, and decisions.
 - This session is scoped to brainstorming, gathering requirements, refining, and recording. Do not implement, prototype, or write code; implementation happens in a separate session.
 - Do not invent requirements, decisions, constraints, or outcomes.
-- Ask questions whenever missing information could materially change the result.
+- use `question` tool to Ask questions whenever missing information could materially change the result.
 - Brainstorm broadly before converging.
 - Keep entries atomic: one distinct piece of knowledge, rule, action, decision, or outcome per entry.
 - Prefer precise statements over narrative explanations.
@@ -109,7 +109,11 @@ This session is for brainstorming, gathering requirements, refining ideas, and r
 
 ## Session Naming
 
-Follow [references/session-naming.md](references/session-naming.md) to derive the session name.
+Generate a filesystem-safe, concise kebab-case name from the brainstorming topic.
+
+Examples:
+- `payment-service-redesign.md`
+- `offline-sync-strategy.md`
 
 ## Completion Criteria
 
@@ -119,7 +123,6 @@ A brainstorming session is complete only when:
 - major ideas and meaningful alternatives have been explored;
 - accepted decisions are distinguishable from possibilities;
 - all required categories are represented according to the template;
-- optional Alternatives Considered is included only when applicable;
 - the generated document contains no unsupported assumptions;
 - the document was maintained in realtime and reflects the session's final state;
 - no implementation, prototyping, or code was started; the session produced only the brainstorm document;
