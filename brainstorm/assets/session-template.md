@@ -1,5 +1,13 @@
 # Brainstorm Session: {{title}}
 
+## Purpose
+
+<!--
+What is the core objective and rationale for this brainstorming session?
+-->
+
+{{purpose}}
+
 ## Context
 
 <!--
@@ -9,6 +17,16 @@ What does an agent need to know to understand the subject?
 ### {{context-item}}
 
 {{context}}
+
+## Domain Modeling
+
+<!--
+What domain concepts, entities, relationships, state models, or data structures were established?
+-->
+
+### {{model-concept}}
+
+{{model-description}}
 
 ## Constraints
 
@@ -70,6 +88,16 @@ What important questions remain unresolved?
 ### {{question}}
 
 {{open-question}}
+
+## Backlog
+
+<!--
+Anything that has been explicitly deferred for future sessions or implementation.
+-->
+
+### {{backlog-item}}
+
+{{backlog-description}}
 
 <!--
 OPTIONAL SECTION:

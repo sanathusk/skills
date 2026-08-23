@@ -1,6 +1,6 @@
 ---
 name: brainstorm
-description: Facilitate an interactive brainstorming session with the user and capture the resulting context, constraints, guidance, actions, outcomes, decisions, open questions, and optionally considered alternatives in a structured Markdown session document. Use when the user wants to brainstorm, explore an idea, think through a problem, or collaboratively develop a solution.
+description: Facilitate an interactive brainstorming session with the user and capture the resulting purpose, context, domain modeling, constraints, guidance, actions, outcomes, decisions, open questions, backlog, and optionally considered alternatives in a structured Markdown session document. Use when the user wants to brainstorm, explore an idea, think through a problem, or collaboratively develop a solution.
 ---
 
 # Brainstorm
@@ -54,22 +54,28 @@ This session is for brainstorming, gathering requirements, refining ideas, and r
 
    | Category | Purpose |
    | --- | --- |
-   | **Context** | Information an one needs to understand the subject. |
+   | **Purpose** | Core objective and rationale for the brainstorming session. |
+   | **Context** | Information needed to understand the subject. |
+   | **Domain Modeling** | Domain concepts, entities, relationships, schemas, and state models established during the session. |
    | **Constraints** | What is allowed, required, or forbidden. |
-   | **Guidance** | How an one should approach the work. |
-   | **Actions** | What an one should do to achieve the expected outcomes. |
+   | **Guidance** | How to approach the work. |
+   | **Actions** | What one should actually do to achieve the expected outcomes. |
    | **Outcomes** | What resulting state must be achieved. |
    | **Decisions** | Conclusions explicitly accepted during the session. |
    | **Open Questions** | Important questions that remain unresolved. |
+   | **Backlog** | Items, features, or questions explicitly deferred for future sessions or implementation. |
    | **Alternatives Considered** | Meaningful alternatives explored and, when applicable, why they were not selected. This section is optional. |
 
 6. **Validate**
    Before finalizing:
+   - Ensure Purpose clearly articulates the goal of the session.
+   - Ensure Domain Modeling captures domain concepts, entities, and data models without assuming implementation code.
+   - Ensure Backlog records anything explicitly deferred during the session.
    - Ensure every important conclusion from the session is represented.
    - Ensure Context contains knowledge rather than instructions.
    - Ensure Constraints contain boundaries rather than general preferences.
    - Ensure Guidance describes approach rather than concrete actions.
-   - Ensure Actions contain things an one should actually do.
+   - Ensure Actions contain things one should actually do.
    - Ensure Outcomes describe verifiable resulting states.
    - Ensure Decisions contain only conclusions explicitly accepted during the session.
    - Never infer a Decision from discussion, preference, or an unconfirmed idea.
