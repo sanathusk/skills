@@ -11,6 +11,7 @@ This repository contains the following skills:
 - **[ask-skill](./ask-skill/SKILL.md)**: Alternative read-only explore/explain/analyze agent instruction template.
 - **[behavioral-guidelines](./behavioral-guidelines/SKILL.md)**: Standardized rules to reduce common LLM coding mistakes, bias towards caution, surgical edits, and verification.
 - **[opencode-help](./opencode-help/SKILL.md)**: Instructions and workflows for retrieving documentation related to OpenCode via DeepWiki MCP.
+- **[github-issue-workflow](./github-issue-workflow/SKILL.md)**: Standardized procedure to search for duplicates via GitHub hybrid search, format, and draft GitHub issues or discussions following repository guidelines before explicit approval and publishing.
 
 ## Installation using the `skills` CLI
 
